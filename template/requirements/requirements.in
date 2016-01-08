@@ -1,1 +1,12 @@
+# base stuff
 django
+
+# application server
+uwsgi
+
+# testing
+pytest
+pytest-django
+flake8
+coverage
+ipdb
