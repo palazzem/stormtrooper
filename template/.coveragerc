@@ -1,0 +1,8 @@
+[run]
+source = django-{{ project_name }}
+omit =
+    */migrations/*
+    */tests/*
+    django-{{ project_name }}/manage.py
+    django-{{ project_name }}/{{ project_name }}/wsgi.py
+    django-{{ project_name }}/{{ project_name }}/settings/production.py
