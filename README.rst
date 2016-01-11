@@ -10,6 +10,16 @@ Getting started
 
 Available soon.
 
+Stormtrooper helmet
+-------------------
+
+Configure your first stormtrooper.
+
+Stormtrooper armor
+------------------
+
+Security concerns.
+
 Content
 -------
 
