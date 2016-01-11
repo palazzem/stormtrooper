@@ -41,7 +41,7 @@ The assault checklist
 N. Update the ``README.rst`` file present in the newly created app
 N+1. Start coding. Really. Start coding now and not before this step!
 
-.. _NewRelic: http://newrelic.com/
+.. _NewRelic: https://newrelic.com/
 .. _Sentry: https://getsentry.com/
 
 License
