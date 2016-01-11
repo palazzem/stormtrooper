@@ -1,5 +1,10 @@
 # base stuff
 django
+django-getenv
+django-redis
+dj-database-url
+psycopg2
+pytz
 
 # application server
 uwsgi
@@ -10,6 +15,9 @@ pytest-django
 flake8
 coverage
 ipdb
+
+# logging
+django-logstash
 
 # monitoring
 newrelic
