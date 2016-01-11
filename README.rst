@@ -32,17 +32,27 @@ Now you should give a name to your stormtrooper. Wait, it's a stormtrooper. They
 Stormtrooper helmet
 -------------------
 
-Configure your first stormtrooper.
+A good design, starts from the head: monitoring
+
+NewRelic
+~~~~~~~~
+
+Configure your `NewRelic`_ monitoring service:
+
+.. code-block:: bash
+    $ newrelic-admin generate-config thisISnotAlicenseKEY newrelic.ini
+
+.. _NewRelic: http://newrelic.com/
 
 Stormtrooper armor
 ------------------
 
 Security concerns.
 
-Content
--------
+Starting the assault
+--------------------
 
-Available soon.
+Just check the ``README.rst`` file present in the newly created app.
 
 License
 -------
