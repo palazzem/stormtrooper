@@ -37,6 +37,7 @@ The assault checklist
 2. Add authors and/or contributors in the ``AUTHORS`` file
 3. Configure `NewRelic`_ monitoring service
 4. Configure `Sentry`_ crash reporting service
+5. Use ``pip-tools`` with the ``requirements/requirements.in`` file
 N. Update the ``README.rst`` file present in the newly created app
 N+1. Start coding. Really. Start coding now and not before this step!
 
