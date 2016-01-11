@@ -24,37 +24,24 @@ The Internet is your target; start spawning your first expendable stormtrooper:
     Unpacking objects: 100% (83/83), done.
     Checking connectivity... done.
 
-Now you should give a name to your stormtrooper. Wait, it's a stormtrooper. They don't have a name.
+Now you should give a name to your stormtrooper. Wait it's a stormtrooper, they don't have a name.
 
 .. code-block:: bash
 
     app_name [stormtrooper]: stormtrooper
 
-Stormtrooper helmet
--------------------
+The assault checklist
+---------------------
 
-A good design, starts from the head: monitoring
-
-NewRelic
-~~~~~~~~
-
-Configure your `NewRelic`_ monitoring service:
-
-.. code-block:: bash
-
-    $ newrelic-admin generate-config thisISnotAlicenseKEY newrelic.ini
+1. Add a proper license in the ``LICENSE`` file
+2. Add authors and/or contributors in the ``AUTHORS`` file
+3. Configure `NewRelic`_ monitoring service
+4. Configure `Sentry`_ crash reporting service
+N. Update the ``README.rst`` file present in the newly created app
+N+1. Start coding. Really. Start coding now and not before this step!
 
 .. _NewRelic: http://newrelic.com/
-
-Stormtrooper armor
-------------------
-
-Security concerns.
-
-Starting the assault
---------------------
-
-Just check the ``README.rst`` file present in the newly created app.
+.. _Sentry: https://getsentry.com/
 
 License
 -------
