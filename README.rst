@@ -27,6 +27,7 @@ The Internet is your target; start spawning your first expendable stormtrooper:
 Now you should give a name to your stormtrooper. Wait, it's a stormtrooper. They don't have a name.
 
 .. code-block:: bash
+
     app_name [stormtrooper]: stormtrooper
 
 Stormtrooper helmet
@@ -40,6 +41,7 @@ NewRelic
 Configure your `NewRelic`_ monitoring service:
 
 .. code-block:: bash
+
     $ newrelic-admin generate-config thisISnotAlicenseKEY newrelic.ini
 
 .. _NewRelic: http://newrelic.com/
