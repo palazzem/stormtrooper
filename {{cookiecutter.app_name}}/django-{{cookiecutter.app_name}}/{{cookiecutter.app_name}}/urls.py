@@ -1,4 +1,4 @@
-"""{{ project_name }} URL Configuration
+"""{{ cookiecutter.app_name }} URL Configuration
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/{{ docs_version }}/topics/http/urls/
 Examples:
