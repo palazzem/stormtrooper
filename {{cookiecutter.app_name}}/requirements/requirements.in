@@ -17,7 +17,7 @@ coverage
 ipdb
 
 # logging
-django-logstash
+python-logstash
 
 # monitoring
 newrelic
