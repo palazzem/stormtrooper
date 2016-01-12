@@ -1,4 +1,4 @@
-from .base import dev
+from .dev import *
 
 
 # disabling loggers
