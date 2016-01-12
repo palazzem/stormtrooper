@@ -38,7 +38,7 @@ The assault checklist
 3. Configure `NewRelic`_ monitoring service
 4. Configure `Sentry`_ crash reporting service
 5. Use ``pip-tools`` with the ``requirements/requirements.in`` file
-6. Update the ``README.rst`` file present in the newly created app
+6. Check (and update) the ``README.rst`` file present in the newly created app
 7. Add the project to your CI (a fake test is already available)
 8. Start coding. Really. Start coding now and not before this step!
 
