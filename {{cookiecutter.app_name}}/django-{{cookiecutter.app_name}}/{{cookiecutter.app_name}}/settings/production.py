@@ -25,7 +25,7 @@ LOGGING['loggers'] = {
         'handlers': ['console', 'syslog'],
         'level': env('DJANGO_LOG_LEVEL', 'INFO'),
     },
-    'runaway': {
+    '{{ cookiecutter.app_name }}': {
         'handlers': ['logstash', 'syslog'],
         'level': env('{{ cookiecutter.app_name|upper }}_LOG_LEVEL', 'INFO'),
     },
