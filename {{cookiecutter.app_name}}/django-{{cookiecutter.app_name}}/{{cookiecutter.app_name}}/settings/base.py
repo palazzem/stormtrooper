@@ -1,4 +1,5 @@
 import os
+import dj_database_url
 
 from getenv import env
 
@@ -71,7 +72,6 @@ TEMPLATES = [
 WSGI_APPLICATION = '{{ cookiecutter.app_name }}.wsgi.application'
 
 # database configuration
-import dj_database_url
 DATABASES_DEFAULT = "postgres://devel:123456@127.0.0.1:5432/{{ cookiecutter.app_name }}"
 DATABASES = {
     'default': dj_database_url.config(default=DATABASES_DEFAULT),
