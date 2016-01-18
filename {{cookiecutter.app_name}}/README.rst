@@ -64,3 +64,15 @@ Logging and monitoring
 * ``LOGSTASH_PORT`` (default: ``5000``)
 * ``NEW_RELIC_CONFIG_FILE``: sets the NewRelic configuration file ``newrelic.ini``
 * ``SENTRY_DSN``: sets the ``DSN`` value, found in the Sentry setup page
+
+Using docker-compose (optional)
+-------------------------------
+
+If your database is up and running via ``docker-compose`` and the binding *address:port* exposes the
+service to the host, you should attach to your ``db`` container to create a default user and the database.
+Launch the following commands:
+
+.. code-block:: bash
+
+    $ docker exec -ti {{ cookiecutter.app_name }}_db_1 su -c "createuser devel -P --createdb" postgres
+    $ docker exec -ti {{ cookiecutter.app_name }}_db_1 su -c "createdb {{ cookiecutter.app_name }} -O devel" postgres

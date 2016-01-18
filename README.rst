@@ -48,7 +48,7 @@ The assault checklist
 Optional
 ~~~~~~~~
 
-1. Add a ``docker-compose.yml`` to define your external services
+1. Add a ``docker-compose.yml`` to define your backend services
 
 License
 -------
