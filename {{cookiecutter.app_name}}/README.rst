@@ -23,7 +23,7 @@ necessary while in development or testing mode, and no SSL connection will be us
 Django
 ~~~~~~
 
-* ``SECRET_KEY`` (default: ``None``)
+* ``DJANGO_SECRET_KEY`` (default: ``None``)
 * ``DJANGO_SETTINGS_MODULE`` (default: ``None``)
 * ``DJANGO_ALLOWED_HOSTS`` (default: ``None``)
 * ``DJANGO_ASSETS_ROOT`` (default: project root folder)
@@ -45,10 +45,10 @@ Email
 
 * ``DJANGO_EMAIL_BACKEND`` (default: ``django.core.mail.backends.smtp.EmailBackend``)
 * ``DJANGO_FROM_EMAIL`` (default: ``None``)
-* ``EMAIL_HOST`` (default: ``None``)
-* ``EMAIL_HOST_PORT`` (default: ``None``)
-* ``EMAIL_HOST_USER`` (default: ``None``)
-* ``EMAIL_HOST_PASSWORD`` (default: ``None``)
+* ``DJANGO_EMAIL_HOST`` (default: ``None``)
+* ``DJANGO_EMAIL_HOST_PORT`` (default: ``None``)
+* ``DJANGO_EMAIL_HOST_USER`` (default: ``None``)
+* ``DJANGO_EMAIL_HOST_PASSWORD`` (default: ``None``)
 
 Application server
 ~~~~~~~~~~~~~~~~~~
