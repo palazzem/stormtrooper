@@ -27,7 +27,7 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 ALLOWED_HOSTS = [
-    env("DJANGO_ALLOWED_HOSTS"),
+    env('DJANGO_ALLOWED_HOSTS'),
 ]
 
 DEBUG = env('DJANGO_DEBUG', False)
@@ -73,19 +73,19 @@ TEMPLATES = [
 WSGI_APPLICATION = '{{ cookiecutter.app_name }}.wsgi.application'
 
 # database configuration
-DATABASES_DEFAULT = "postgres://devel:123456@127.0.0.1:5432/{{ cookiecutter.app_name }}"
+DATABASES_DEFAULT = 'postgres://devel:123456@127.0.0.1:5432/{{ cookiecutter.app_name }}'
 DATABASES = {
     'default': dj_database_url.config(default=DATABASES_DEFAULT),
 }
 
 # Cache
-CACHES_DEFAULT = "redis://127.0.0.1:6379/1"
+CACHES_DEFAULT = 'redis://127.0.0.1:6379/1'
 CACHES = {
-    "default": {
-        "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": env("CACHE_URL", CACHES_DEFAULT),
-        "OPTIONS": {
-            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+    'default': {
+        'BACKEND': 'django_redis.cache.RedisCache',
+        'LOCATION': env('CACHE_URL', CACHES_DEFAULT),
+        'OPTIONS': {
+            'CLIENT_CLASS': 'django_redis.client.DefaultClient',
         },
         'TIMEOUT': 3600
     }
@@ -99,7 +99,7 @@ USE_L10N = True
 USE_TZ = True
 
 # static files and media
-ASSETS_ROOT = env("DJANGO_ASSETS_ROOT", BASE_DIR)
+ASSETS_ROOT = env('DJANGO_ASSETS_ROOT', BASE_DIR)
 
 STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
@@ -113,8 +113,8 @@ EMAIL_BACKEND_DEFAULT = 'django.core.mail.backends.console.EmailBackend'
 EMAIL_BACKEND = env('DJANGO_EMAIL_BACKEND', EMAIL_BACKEND_DEFAULT)
 
 # logging
-LOGSTASH_HOST = env("LOGSTASH_HOST", "127.0.0.1")
-LOGSTASH_PORT = env("LOGSTASH_PORT", 5000)
+LOGSTASH_HOST = env('LOGSTASH_HOST', '127.0.0.1')
+LOGSTASH_PORT = env('LOGSTASH_PORT', 5000)
 
 LOGGING = {
     'version': 1,
