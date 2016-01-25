@@ -49,6 +49,7 @@ Email
 * ``DJANGO_EMAIL_HOST_PORT`` (default: ``None``)
 * ``DJANGO_EMAIL_HOST_USER`` (default: ``None``)
 * ``DJANGO_EMAIL_HOST_PASSWORD`` (default: ``None``)
+* ``DJANGO_EMAIL_USE_TLS`` (default: ``True``)
 
 Application server
 ~~~~~~~~~~~~~~~~~~
