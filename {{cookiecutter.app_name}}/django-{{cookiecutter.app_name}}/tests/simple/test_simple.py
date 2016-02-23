@@ -1,20 +1,13 @@
-from django.test import TestCase
+def test_simple_empty_test():
+    """
+    This test is used as a placeholder so you can immediately
+    test your CI integration
+    """
+    self.assertEqual(1, 1)
 
-
-class SimpleTestCase(TestCase):
-    def setUp(self):
-        pass
-
-    def test_simple_empty_test(self):
-        """
-        This test is used as a placeholder so you can immediately
-        test your CI integration
-        """
-        self.assertEqual(1, 1)
-
-    def test_simple_empty_test_failure(self):
-        """
-        This test is used as a placeholder so you can immediately
-        test your CI integration
-        """
-        self.assertEqual(0, 1)
+def test_simple_empty_test_failure():
+    """
+    This test is used as a placeholder so you can immediately
+    test your CI integration
+    """
+    self.assertEqual(0, 1)
