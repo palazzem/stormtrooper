@@ -14,6 +14,7 @@ pytest
 pytest-django
 pytest-xdist
 pytest-cov
+pytest-selenium
 flake8
 coverage
 ipdb
